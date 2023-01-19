@@ -398,6 +398,13 @@ body {
   padding-bottom: 100px;
 }
 
+.social-media-container,
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
 .ftr-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -422,15 +429,22 @@ body {
 }
 
 .social-media-title {
-  width: 96px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  text-align: center;
+}
+
+.social-media-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .social-media-list {
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 
